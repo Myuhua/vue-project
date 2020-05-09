@@ -1,5 +1,7 @@
-'use strict'
+// vue-cli的bulid.js是webpack的打包文件，通过配置package.json中的script来执行脚本。命令号npm run build即运行node build/build.js
 
+// "use strict" 的目的是指定代码在严格条件下执行。
+'use strict'
 //检查node+npm的版本，引用./check-versions.js文件
 require('./check-versions')()
 //process.env是一个包含用户环境信息的对象 NODE_ENV是用户自定义的变量，用来判断是开发环境还是生产环境
@@ -55,3 +57,5 @@ rm(path.join(config.build.assetsRoot, config.build.assetsSubDirectory), err => {
     ))
   })
 })
+
+// 注释来源 https://blog.csdn.net/xiaoxiaoluckylucky/article/details/85863819

@@ -1,9 +1,14 @@
+// vue-cli的utils.js
 'use strict'
+// 引入nodejs路径模块
 const path = require('path')
+// 引入config目录下的index.js配置文件
 const config = require('../config')
+// 引入extract-text-webpack-plugin插件，用来将css提取到单独的css文件中
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
+// 引入package.json文件
 const packageConfig = require('../package.json')
-
+// exports其实就是一个对象，用来导出方法的，最终还是使用module.exports，此处导出assetsPath
 exports.assetsPath = function (_path) {
   const assetsSubDirectory = process.env.NODE_ENV === 'production'
     ? config.build.assetsSubDirectory
@@ -99,3 +104,5 @@ exports.createNotifierCallback = () => {
     })
   }
 }
+
+// 注释来源 https://www.cnblogs.com/wulinzi/p/8072815.html
