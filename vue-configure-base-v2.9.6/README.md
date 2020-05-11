@@ -31,4 +31,4 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 当前vue版本是2.9.6 （查询版本命令 vue -V）
 
-本项目是vue-cli安装完成默认目录结构
+本项目是对vue-cli脚手架项目目录改造过后的配置项目，通过配置形成对立的前端vue项目。
