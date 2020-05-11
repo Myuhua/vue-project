@@ -1,4 +1,4 @@
-//dev开发环境配置文件
+//webpack dev开发环境配置文件
 'use strict'
 //引入当前目录下的utils.js文件模块
 const utils = require('./utils')
