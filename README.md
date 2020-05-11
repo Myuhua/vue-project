@@ -31,4 +31,10 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 当前vue版本是2.9.6 （查询版本命令 vue -V）
 
-本项目是对vue-cli脚手架项目目录改造过后的配置项目，通过配置形成对立的前端vue项目。
+vue-cli-v2.9.6是npm命令安装完后默认目录结构的项目。
+
+vue-remould-base-v2.9.6是根据业务需求改造目录结构后的项目。
+
+vue-configure-base-v2.9.6是根据业务改造目录结构后项目的配置，通过配置后形成可独立运行的前端vue项目。
+
+
