@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+<!--    注意@可以代表src，但是地址写src/...路径找不到-->
+<!--    <img src="src/assets/logo/logo.png">-->
+    <img src="@/assets/logo/logo.png">
     <router-view/>
   </div>
 </template>

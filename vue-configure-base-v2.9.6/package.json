@@ -1,8 +1,8 @@
 {
-  "name": "y",
+  "name": "vue-configure",
   "version": "1.0.0",
-  "description": "y",
-  "author": "y",
+  "description": "vue项目配置",
+  "author": "yuhua",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -14,11 +14,16 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "element-ui": "^2.13.1",
+    "js-cookie": "^2.2.1",
+    "jsencrypt": "^3.0.0-rc.1",
+    "requset": "0.0.1-security",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
+    "axios": "^0.19.2",
     "babel-core": "^6.22.1",
     "babel-eslint": "^8.2.1",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
@@ -70,6 +75,7 @@
     "vue-loader": "^13.3.0",
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "^2.5.2",
+    "vuex": "^3.4.0",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
     "webpack-dev-server": "^2.9.1",
