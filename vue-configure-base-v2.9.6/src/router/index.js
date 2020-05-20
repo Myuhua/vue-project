@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-
+/* Layout */
+import Layout from '@/layout'
 /**
  * Note: 路由配置项
  *
@@ -27,6 +28,17 @@ export const constantRoutes = [
     name: 'HelloWorld',
     // 组件位置@/components/HelloWorld即为src/components/HelloWorld
     component: () => import('@/components/HelloWorld')
+  },
+  {
+    path: '/redirect',
+    component: Layout,
+    hidden: true,
+    children: [
+      {
+        path: '/redirect/:path(.*)',
+        component: () => import('@/views/redirect')
+      }
+    ]
   },
   {
     path: '/login',
